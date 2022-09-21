@@ -7,7 +7,7 @@ return<>
 <p>This is about page</p>
 <Link to="/">Go to Home Page</Link>
 <li> <Link to="/user/anil">Anil</Link></li>
-        <li> <Link to="/user/aman">Aman</Link></li>
+<li> <Link to="/user/aman">Aman</Link></li>
 </>
 }
 
