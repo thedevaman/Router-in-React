@@ -1,4 +1,4 @@
-import {Link,NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 function Navbar()
 {
@@ -12,6 +12,7 @@ function Navbar()
         className="nav-bar-link" to="/about">About</NavLink></li>
        <li><NavLink className="nav-bar-link" to="/filter">Filter</NavLink></li>
         <li> <NavLink className="nav-bar-link" to="/contact">Contact</NavLink></li>
+        <li> <NavLink className="nav-bar-link" to="/dynamicroute">Dynamic Route</NavLink></li>
         <li> <NavLink className="nav-bar-link" to="/login">Login</NavLink></li>
         </ul>
     </div>)
